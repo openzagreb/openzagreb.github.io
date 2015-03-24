@@ -2,7 +2,7 @@
 
 <html>
   <head>
-    <title>Code for America Projects</title>
+    <title>Code for Croatia Projects</title>
     <link rel="stylesheet" type="text/css" href="assets/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/grid.css">
     <link rel="stylesheet" type="text/css" href="assets/style.css">
@@ -66,7 +66,7 @@
         repos = repos || [];
         page = page || 1;
 
-        var uri = "https://api.github.com/orgs/codeforamerica/repos?callback=?"
+        var uri = "https://api.github.com/orgs/codeforcroatia/repos?callback=?"
                 + "&per_page=100"
                 + "&page="+page;
 
@@ -122,7 +122,7 @@
       }
       addRepos();
 
-      $.getJSON("https://api.github.com/orgs/codeforamerica/members?callback=?", function (result) {
+      $.getJSON("https://api.github.com/orgs/codeforcroatia/members?callback=?", function (result) {
         var members = result.data;
 
         $(function () {
@@ -170,24 +170,24 @@
   <body>
     <div id="wrapper" class="grid clearfix">
       <div id="main" class="grid-1">
-        <div id="logo"><h1>Code for America</h1></div>
-        <h1>Code for America Projects</h1>
-        <p>Want to help? <a href="http://www.codeforamerica.org">Code for America</a></p>
+        <div id="logo"><h1>Code for Croatia</h1></div>
+        <h1>Code for Croatia Projects</h1>
+        <p>Want to help? <a href="http://www.codeforcroatia.org/register">Code for Croatia</a></p>
       </div>
 
       <div class="grid grid-3">
         <div id="statistics" class="grid-1 alpha header">
           <h1>Statistics</h1>
           <p>
-            <a href="https://github.com/codeforamerica/repositories"><span id="num-repos"><img src="assets/spinner.gif" /></span> public repos</a>
+            <a href="https://github.com/codeforcroatia/repositories"><span id="num-repos"><img src="assets/spinner.gif" /></span> public repos</a>
             <br>
-            <a href="https://github.com/codeforamerica"><span id="num-members"><img src="assets/spinner.gif" /></span> members</a>
+            <a href="https://github.com/codeforcroatia"><span id="num-members"><img src="assets/spinner.gif" /></span> members</a>
           </p>
-          <p class="email"><a href="http://www.twitter.com/codeforamerica">@codeforamerica</a></p>
+          <p class="email"><a href="http://www.twitter.com/codeforcroatia">@codeforcroatia</a></p>
         </div>
 
         <div id="recently-updated" class="grid-2 omega header">
-          <h1>Recently updated <a href="https://github.com/codeforamerica/repositories">View All on GitHub</a></h1>
+          <h1>Recently updated <a href="https://github.com/codeforcroatia/repositories">View All on GitHub</a></h1>
           <ol id="recently-updated-repos"></ol>
         </div>
       </div>

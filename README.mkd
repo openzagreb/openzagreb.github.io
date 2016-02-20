@@ -1,4 +1,7 @@
 # Code for Croatia Project Page
+
+[![Slack Status](http://slackin.codeforcroatia.org/badge.svg)](http://codeforcroatia.org/slackin)
+
 Code for Croatia's Project page inspired by [https://github.com/twitter/twitter.github.com](https://github.com/twitter/twitter.github.com)
 
 

@@ -1,8 +1,8 @@
-# Code for Croatia Project Page
+# Open Zagreb Project Page
 
 [![Slack Status](http://slackin.codeforcroatia.org/badge.svg)](http://codeforcroatia.org/slackin)
 
-Code for Croatia's Project page inspired by [https://github.com/twitter/twitter.github.com](https://github.com/twitter/twitter.github.com)
+Open Zagreb's Project page inspired by [https://github.com/twitter/twitter.github.com](https://github.com/twitter/twitter.github.com)
 
 
 ## <a name="copyright"></a>Copyright

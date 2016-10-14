@@ -7,7 +7,3 @@ Open Zagreb's Project page inspired by [https://github.com/twitter/twitter.githu
 
 ## <a name="copyright"></a>Copyright
 Copyright (c) 2012 Code for America.
-
-[![Code for America Tracker](http://stats.codeforamerica.org/codeforamerica/codeforamerica.github.com.png)][tracker]
-
-[tracker]: http://stats.codeforamerica.org/projects/codeforamerica.github.com
